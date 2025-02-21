@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<endereco xmlns="http://example.com/endereco" cep="68440000">
+    <logradouro>Logradouro Teste</logradouro>
+    <numero>S/N</numero>
+    <complemento>Altos</complemento>
+    <bairro>ZONA RURAL - ES</bairro>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <pais>Brasil</pais>
+</endereco>

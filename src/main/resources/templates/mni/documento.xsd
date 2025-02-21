@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://example.com/documento"
+            xmlns="http://example.com/documento"
+            elementFormDefault="qualified">
+    <xs:element name="documento">
+        <xs:complexType>
+            <xs:attribute name="codigoDocumento" use="required" type="xs:string" />
+            <xs:attribute name="emissorDocumento" use="required" type="xs:string" />
+            <xs:attribute name="tipoDocumento" use="required" type="xs:anyType" />
+            <xs:attribute name="nome" type="xs:string" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

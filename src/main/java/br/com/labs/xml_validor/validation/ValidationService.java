@@ -20,8 +20,8 @@ import java.io.IOException;
 public class ValidationService {
     private static final Logger logger = LoggerFactory.getLogger(ValidationService.class);
 
-    private String xsdPath = "templates/full-person.xsd";
-    private String xmlPath = "templates/person.xml";
+    private String xsdPath = "templates/mni/pessoa.xsd";
+    private String xmlPath = "templates/mni/pessoa.xml";
 
     public ValidationService() {
     }

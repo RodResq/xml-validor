@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pessoa [
+        <!ENTITY endereco SYSTEM "endereco.xml">
+        ]>
+
+<pessoa xmlns="http://example.com/pessoa">
+    &endereco;
+    <Position>Software Engineer</Position>
+</pessoa>

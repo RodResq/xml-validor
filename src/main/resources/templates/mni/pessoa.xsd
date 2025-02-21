@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:end="http://example.com/endereco"
+           targetNamespace="http://example.com/pessoa"
+           xmlns="http://example.com/pessoa"
+           elementFormDefault="qualified">
+
+    <!-- Import external XSD with a different namespace -->
+    <xs:import namespace="http://example.com/endereco" schemaLocation="endereco.xsd"/>
+    <xs:element name="pessoa">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Use imported type -->
+                <xs:element ref="end:endereco"/>
+                <xs:element name="Position" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
